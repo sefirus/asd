@@ -1,5 +1,10 @@
-# Created by https://www.toptal.com/developers/gitignore/api/rider,dotnetcore,visualstudio,aspnetcore
-# Edit at https://www.toptal.com/developers/gitignore?templates=rider,dotnetcore,visualstudio,aspnetcore
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+# Created by https://www.toptal.com/developers/gitignore/api/rider,visualstudio,aspnetcore
+# Edit at https://www.toptal.com/developers/gitignore?templates=rider,visualstudio,aspnetcore
 
 ### ASPNETCore ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -270,15 +275,6 @@ __pycache__/
 
 # Cake - Uncomment if you are using it
 # tools/
-
-### DotnetCore ###
-# .NET Core build folders
-bin/
-obj/
-
-# Common node modules locations
-/node_modules
-/wwwroot/node_modules
 
 ### Rider ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -614,4 +610,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/rider,dotnetcore,visualstudio,aspnetcore
+# End of https://www.toptal.com/developers/gitignore/api/rider,visualstudio,aspnetcore
